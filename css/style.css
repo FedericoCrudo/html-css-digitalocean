@@ -1,15 +1,26 @@
 
-.debug  [class*='col-']{
+    .debug  [class*='col-']{
     background-color: red;
-    height: 80px;
+    height: 100px;
     border:1px solid black;
   }
+  
   .debug2 [class*='col-']{
-      background-color: chocolate;
-      height: 50px;
+      height: 200px;
+      background-color: crimson;
       border: 1px solid black;
+      margin-bottom: 20px;
   }
 
+.debug3>[class*='col-'] {
+    background-color: red;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+  .height{
+      height: 300px;
+  }
   .ms_green {
     background-color: #1abc9c;
   }
@@ -59,12 +70,11 @@
  #businesses{
      background-color:#F3F5F9 ;
  }
- #deploy {
-     height: 400px;
- }
+
  #deploy .row.particolar{
-    height: 400px;
+  
     background-color: yellow;
     
  }
+
  
