@@ -11,13 +11,50 @@
       border: 1px solid black;
       margin-bottom: 20px;
   }
-
+  .nopadding {
+    padding: 0;
+    margin: 0 ;
+ }
 .debug3>[class*='col-'] {
     background-color: red;
     border: 1px solid black;
     padding: 30px;
 }
-
+  /* tipografy */
+  h1 {
+    font-size: 55px;
+  }
+  p{
+      font-size: 20px;
+  }
+.ms_green {
+    background-color: #1abc9c;
+  }
+  .text_tras_up{
+    text-transform: uppercase;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .ms_text_white {
+    color: white;
+  }
+  .ms_text_black {
+    color: black;
+  }
+  .ms_text_blue{
+      color: #006aff;
+  }
+  .ms_text_darkblue{
+    color: #031c4e;
+  }
+  .bg_color_blue{
+    background-color:#579aff ;
+  }
+ 
+.width_100{
+    max-width: 100%;
+    }
   .height{
       height: 300px;
   }
@@ -46,35 +83,104 @@
   .m_bottom_30{
     margin-bottom: 30px;
   }
+  .m_bottom_10{
+    margin-bottom: 10px;
+  }
  
   /* padding */
   .pd_B_30{
     padding-bottom: 30px;
   }
-  .pd_B_20{
+  .pd_B_10{
+    padding-bottom: 10px;
+  }
+  .pd_B_5{
     padding-bottom: 20px;
   }
-  nav{
-     
-      background-color: cadetblue;
-  }
- .jumbotron_{
 
-     background-image: url("../img/bg-home-1.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
- }
- .jumbotron_ .row.debug  [class*='col-']{
-     height: 350px;
-    }
- #businesses{
-     background-color:#F3F5F9 ;
- }
+  nav .row {
+    line-height: 80px;
+}
+    nav .row img {
+    margin-top:-6px ;
+}
+nav .row  a{
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 20px;
+    color:#031c4e;
+    font-weight: bold;
+}
+nav .row  a:hover{  
+    color: #006aff;
+}
+nav .row  a i{
+    vertical-align: middle;
+    padding-left: 5px;
+}
 
- #deploy .row.particolar{
-  
-    background-color: yellow;
+ .btn-primary-outline2{
+    margin-left:20px ;
+    color: #006aff;
+    border: 1px solid #006aff;
+     font-weight: bold;
+}
+  .btn-primary-outline-large{
+    width: 100%;
     
- }
+}
+nav .row button:hover{
+    background-color:#006aff; 
+    color: white;
+    transition: 0.3s;
+}
+.jumbotron_{
+    background-image: url("../img/bg-home-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+.jumbotron_ .row p {
+color:#bbcdff ;
+}  
+.jumbotron_ .row .deploy-app{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding:30px 15px;
+}
+.jumbotron_ .row .deploy-app h2{
+    font-weight: bold;
+    margin:0 ;
+}
+.jumbotron_ .row .deploy-app  .form-control{
+    padding-bottom: 5px;
+}
+.jumbotron_ .row .deploy-app  button{
+    font-size: 15px;
+    position: relative;
+}
+.jumbotron_ .row .deploy-app  button img{
+  width: 20px;
+  position: absolute;
+  top:22%;
+  left:4%;
+  transform: translate(-50%,-5%);
+}
+.deploy-app  button:last-of-type:hover{
+  background-color: #ef6c64;
+  color: white;
+}
+.deploy-app span{
+  font-size: 11px;
+}
+#businesses{
+  background-color: #f3f5f9;
+}
+#businesses .row{
+  line-height: 100px;
+}
 
+#businesses .row img{
+    max-width: 90%;
+}
  
