@@ -1,0 +1,70 @@
+
+.debug  [class*='col-']{
+    background-color: red;
+    height: 80px;
+    border:1px solid black;
+  }
+  .debug2 [class*='col-']{
+      background-color: chocolate;
+      height: 50px;
+      border: 1px solid black;
+  }
+
+  .ms_green {
+    background-color: #1abc9c;
+  }
+  .text_tras_up{
+    text-transform: uppercase;
+  }
+  .ms_text_white {
+    color: white;
+  }
+  .ms_text_black {
+    color: black;
+  }
+  /* margini */
+  .m_top_bott_50{
+    margin: 50px 0;
+  }
+  .m_top_bott_50{
+    margin: 50px 0;
+  }
+  .m_top_30{
+    margin-top: 30px;
+  }
+  .m_bottom_30{
+    margin-bottom: 30px;
+  }
+ 
+  /* padding */
+  .pd_B_30{
+    padding-bottom: 30px;
+  }
+  .pd_B_20{
+    padding-bottom: 20px;
+  }
+  nav{
+     
+      background-color: cadetblue;
+  }
+ .jumbotron_{
+
+     background-image: url("../img/bg-home-1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .jumbotron_ .row.debug  [class*='col-']{
+     height: 350px;
+    }
+ #businesses{
+     background-color:#F3F5F9 ;
+ }
+ #deploy {
+     height: 400px;
+ }
+ #deploy .row.particolar{
+    height: 400px;
+    background-color: yellow;
+    
+ }
+ 
