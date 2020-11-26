@@ -20,6 +20,12 @@
     border: 1px solid black;
     padding: 30px;
 }
+ul{
+  list-style: none;
+  
+}
+
+
   /* tipografy */
   h1 {
     font-size: 55px;
@@ -48,6 +54,9 @@
   .ms_text_darkblue{
     color: #031c4e;
   }
+  .p_text_color-grey{
+    color: #5C6A88;
+  }
   .bg_color_blue{
     background-color:#579aff ;
   }
@@ -74,17 +83,26 @@
   .m_top_bott_50{
     margin: 50px 0;
   }
+  .m_top_bott_20{
+    margin: 20px 0;
+  }
   .m_top_bott_50{
     margin: 50px 0;
   }
   .m_top_30{
     margin-top: 30px;
   }
+  .m_top_50{
+    margin-top: 50px;
+  }
   .m_bottom_30{
     margin-bottom: 30px;
   }
   .m_bottom_10{
     margin-bottom: 10px;
+  }
+  .m_top_20{
+    margin-top: 20px;
   }
  
   /* padding */
@@ -140,7 +158,7 @@ nav .row button:hover{
     background-size: cover;
 }  
 .jumbotron_ .row p {
-color:#bbcdff ;
+color:#bbcdff;
 }  
 .jumbotron_ .row .deploy-app{
     background-color: white;
@@ -181,6 +199,19 @@ color:#bbcdff ;
 }
 
 #businesses .row img{
-    max-width: 90%;
+    max-width: 150px;
 }
- 
+#businesses .row:last-of-type a{
+  font-size: 20px;
+}
+#deploy .row ul{
+  border-left: 2px solid grey;
+  padding: 16px;
+}
+#deploy .row ul li {
+  padding-bottom:20px ;
+}
+#deploy .row ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
