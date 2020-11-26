@@ -79,6 +79,9 @@ ul{
   .ms_text_black {
     color: black;
   }
+  .bg_color_section{
+    background-color: #f3f5f9;
+  }
   /* margini */
   .m_top_bott_50{
     margin: 50px 0;
@@ -191,9 +194,7 @@ color:#bbcdff;
 .deploy-app span{
   font-size: 11px;
 }
-#businesses{
-  background-color: #f3f5f9;
-}
+
 #businesses .row{
   line-height: 100px;
 }
@@ -205,13 +206,31 @@ color:#bbcdff;
   font-size: 20px;
 }
 #deploy .row ul{
-  border-left: 2px solid grey;
-  padding: 16px;
+  padding: 0;
 }
 #deploy .row ul li {
-  padding-bottom:20px ;
+  border-left: 3px solid #E5E8ED;
+  padding: 20px 0px 20px 10px;
+  color: black;
+  line-height: 20px;
 }
+#deploy .row ul li:hover{
+  border-left: 3px solid #016AFF;
+}
+
 #deploy .row ul li a{
   text-decoration: none;
   font-size: 20px;
+  
 }
+ #deploy .row .row h3{
+   font-size: 20px;
+  color:#041C4F ;
+  font-weight: bold;
+ }
+ #deploy .row .row p{
+  font-size: 18px;
+ }
+
+
+
