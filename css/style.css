@@ -131,6 +131,9 @@ ul{
   }
  
   /* padding */
+    .pd_l_20{
+      padding-left: 20px;
+    }
   .pd_B_100{
     padding-bottom: 100px;
   }
@@ -164,10 +167,10 @@ ul{
     nav .row img {
     margin-top:-6px ;
 }
-nav .row  a , #service .row .row a{
+  nav .row  a,  #service .row .row a{
     text-decoration: none;
     font-size: 13px;
-    padding-left: 20px;
+    
     color:#031c4e;
     font-weight: bold;
 }
@@ -180,9 +183,10 @@ nav .row  a i{
 }
  .btn-primary-outline2{
     margin-left:20px ;
+    text-align: center;
     color: #006aff;
     border: 1px solid #006aff;
-     font-weight: bold;
+    font-weight: bold;
 }
   .btn-primary-outline-large{
     width: 100%;
@@ -354,7 +358,7 @@ color:#bbcdff;
   padding: 10px;
 }
 footer{
-  height: 500px;
+  
   background-color: #031C4E;
 }
 footer .row span i{
@@ -388,29 +392,29 @@ footer .row ul li {
   padding-bottom:10px ;
 }
 
-.shark-fixed .shark_{
-  width: auto;
+.shark_{
   position: fixed;
-  bottom: 2%;
-  right: 0%;
+  bottom: 3%;
+  right: 3%;
   
 }
-.shark-fixed .shark_ img{
-  width:  30%;
+
+.shark_ .wrap img{
+  width: 100%;
   border-radius: 5px;
   padding: 5px 2px;
   background-color: #006AFF;
   position: relative;
  
 }
-.shark-fixed .shark_ h4{
+.shark_  .wrap span{
   position: absolute;
   top: 0%;
   right: 0;
-  font-size: 20px;
-  
-
-
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
 }
 
 
