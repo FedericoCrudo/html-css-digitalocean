@@ -448,7 +448,18 @@ footer .row ul li {
 .wrap:hover + .text-box{
   display: block;
 }
+@media screen and (max-width:1528px) {
+  
+  .text-box{
+    width: 200px;
+ 
+    right: 105px;
+  }
+#service .row .row:last-child{
+  margin-bottom:30px ;
+}
 
+} 
 
 
 
