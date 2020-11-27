@@ -361,7 +361,6 @@ color:#bbcdff;
   padding: 10px;
 }
 footer{
-  
   background-color: #031C4E;
 }
 footer .row span i{
@@ -394,14 +393,12 @@ footer .row ul li:first-child{
 footer .row ul li {
   padding-bottom:10px ;
 }
-
 .shark_{
   position: fixed;
   bottom: 3%;
   right: 3%;
   
 }
-
 .shark_ .wrap img{
   width: 70px;
   border-radius: 5px;
